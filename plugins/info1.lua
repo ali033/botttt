@@ -538,6 +538,7 @@ return {
 		"^[!#/](info)$",
 		"^[!#/](Info)$",
 		"^([Ii][Nn][Ff][Oo])$",
+		"^([Ii][Nn][Ff][Oo]) (.*)$",
 	},
 	run = run,
 }
