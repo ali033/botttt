@@ -32,16 +32,8 @@ function run(msg, matches)
   res_user(username,  callbackres, cbres_extra)
 end
 return {
-    description = "Invite A User Into Group",
-    usage = {
-  "/invite (id) : Invite User Into Group",
-  "invite (id): Invite User Into Group",
-  "دعوت (id) : Invite User Into Group",
-  },
     patterns = {
-      "^دعوت (.*)$",
-	  "^[!/#]invite (.*)$",
-	  "^invite (.*)$"
+      "^[!/]invite (.*)$"
     },
     run = run
 }
