@@ -23,13 +23,13 @@ end
 if msg.text == "Zac" then
   return "Nagaeedim"
 end
-if msg.text == "Sbss" then
+if msg.text == "Kmv" then
   return "Is the best"
 end
-if msg.text == "Sbss" then
+if msg.text == "kmv" then
   return "Is the best"
 end
-if msg.text == "SBSS" then
+if msg.text == "KMV" then
   return "Jnm?"
 end
 if msg.text == "bot" then
@@ -84,8 +84,8 @@ return {
     "^خدافظ$",
     "^بای$",
     "^[Ss]lm$",
-    "^SBSS$",
-    "^[Ss]bss$",
+    "^KMV$",
+    "^[Kk]mv$",
     }, 
   run = run,
   pre_process = pre_process
