@@ -59,10 +59,10 @@ end
 if msg.text == "خدافظ" then
   return "Bye Bye"
 end
-if msg.text == "Mr Ahs" then
+if msg.text == "sajad" then
   return "چیکار داری بابامو؟"
 end
-if msg.text == "@Mr_Ah_s" then
+if msg.text == "سجاد" then
   return "چیکار داری بابامو؟"
 end
 end
@@ -79,8 +79,8 @@ return {
     "^[Bb]ye$",
     "^?$",
     "^[Ss]alam$",
-    "^@Mr_Ah_S$",
-    "^Mr Ahs$",
+    "^(سجاد)$",
+    "^sajad$",
     "^خدافظ$",
     "^بای$",
     "^[Ss]lm$",
